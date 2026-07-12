@@ -1,0 +1,44 @@
+{
+    "name": "socialiteproviders/epic-games",
+    "description": "Epic Games provider for Laravel Socialite via SocialiteProviders",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "oauth",
+        "oauth2",
+        "provider",
+        "socialite",
+        "epic",
+        "epic-games",
+        "epicgames"
+    ],
+    "authors": [
+        {
+            "name": "Bruno Rosa"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/SGzuis/socialiteproviders-epic-games/issues",
+        "source": "https://github.com/SGzuis/socialiteproviders-epic-games",
+        "docs": "https://socialiteproviders.com/epic-games"
+    },
+    "require": {
+        "php": "^8.2",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\EpicGames\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SocialiteProviders\\EpicGames\\Tests\\": "tests/"
+        }
+    }
+}
