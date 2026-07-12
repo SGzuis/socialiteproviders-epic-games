@@ -1,7 +1,20 @@
 # Epic Games
 
+Como o pacote será usado separadamente para testes e não está no Packagist, você deve adicioná-lo configurando o repositório VCS no `composer.json` do seu projeto Laravel:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "git@github.com:SGzuis/socialiteproviders-epic-games.git"
+    }
+]
+```
+
+Em seguida, instale o pacote apontando para a branch principal (`main`):
+
 ```bash
-composer require socialiteproviders/epic-games
+composer require socialiteproviders/epic-games:dev-main
 ```
 
 ## Installation & Basic Usage
