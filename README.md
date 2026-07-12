@@ -1,6 +1,8 @@
 # Epic Games
 
-Como o pacote será usado separadamente para testes e não está no Packagist, você deve adicioná-lo configurando o repositório VCS no `composer.json` do seu projeto Laravel:
+> **Aviso:** Este pacote é uma versão independente para uso temporário. Você pode acompanhar a integração oficial através do Pull Request: [SocialiteProviders/Providers#1458](https://github.com/SocialiteProviders/Providers/pull/1458).
+
+Como o pacote será usado separadamente para testes e enquanto o oficial não é publicado, você deve adicioná-lo configurando o repositório VCS no `composer.json` do seu projeto Laravel:
 
 ```json
 "repositories": [
